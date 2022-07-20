@@ -1,6 +1,57 @@
 /* tablet latout */
-@media only screen and (max-width: 700px) {
-    body{
-        background-color: blueviolet;
+@media only screen and (max-width: 768px) {
+    .text {
+        padding: 40px 0 40px 50px;
     }
+    .inner-header-area {
+        margin-bottom: 50px;
+    }
+    .text h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .cards{
+        margin-bottom: 50px;
+    }
+    .inner-card-area{
+        gap: 20px;
+    }
+    .nav{
+        width: 33%;
+    }
+    .nav ul{
+        padding: 1px 16px;
+    }
+    .nav ul li{
+        margin: 20px 0px;
+    }
+    .nav ul li a{
+        padding: 15px;
+    }
+    .inner-card-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .inner-card-box .card-child:last-child{
+        display: none;
+    }
+    .card-box{ 
+        width: 67%;
+    }
+    .inner-footer-2-ul{
+        width: 80%;
+    }
+    .inner-footer-2-ul ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .inner-footer-2-ul ul li a {
+        font-size: 15px;
+    }
+    .button{
+        display: block;
+        margin-bottom: 50px;
+    }
+    
 }
