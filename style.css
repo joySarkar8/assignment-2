@@ -14,6 +14,7 @@ body {
 
 .container {
     max-width: 992px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -37,7 +38,7 @@ body {
 
 .text h1 {
     color: #fff;
-    font-size: 4vw;
+    font-size: 60px;
     margin-bottom: 25px;
     line-height: 60px;
     font-weight: 700;
@@ -96,14 +97,14 @@ body {
                    card area start
 ===================================================*/
 .cards{
-
+    margin-bottom: 80px;
 }
 .inner-card-area{
     display: flex;
     gap: 25px;
 }
 .nav{
-    width: 25%;
+    width: 24%;
 }
 .nav ul{
     background-color: #161616;
@@ -134,7 +135,7 @@ body {
     background-color: #DD0000;
     color: #fff;
 }
-.card-box{
+.card-box{ 
     width: 75%;
 }
 .inner-card-box{
@@ -170,4 +171,91 @@ body {
 }
 .card-text span i{
     margin: 0 10px 0 0;
+}
+
+.button{
+    text-align: center;
+    border: 0;
+    display: none;
+} 
+.button button{
+    border: none;
+} 
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #DD0000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 42px;
+    border-radius: 5px;
+} 
+
+/*===================================================
+                   footer area start
+===================================================*/
+.footer{
+    width: 100%;
+    background-color: #161616;
+    padding: 80px 0;
+}
+.inner-footer-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner-footer-tittle{
+    width: 80%;
+    border-bottom: 2px solid #2D2D2D;
+    margin-bottom: 40px;
+    padding-bottom: 35px;
+}
+.inner-footer-tittle h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4vw;
+}
+.inner-footer-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.inner-footer-2-ul{
+    width: 60%;
+}
+.inner-footer-2-ul ul{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-footer-2-ul ul li{
+    list-style: none;
+}
+.inner-footer-2-ul ul li a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.social-icon{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.social-icon div{
+    background-color: #2D2D2D;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-icon div i{
+    color: #fff;
+    font-size: 2vw;
 }
