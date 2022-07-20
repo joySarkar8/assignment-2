@@ -38,9 +38,9 @@ body {
 
 .text h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 4vw;
     margin-bottom: 25px;
-    line-height: 60px;
+    line-height: 4.5vw;
     font-weight: 700;
 }
 
@@ -114,15 +114,10 @@ body {
 }
 .nav ul li{
     list-style: none;
-    /* padding: 20px; */
     background-color: #fff;
     margin: 22px 0px;
     border-radius: 8px;
 }
-/* .nav ul li:hover{
-    background-color: #DD0000;
-    color: #fff;
-} */
 .nav ul li a{
     border-radius: 8px;
     text-decoration: none;
@@ -215,7 +210,7 @@ body {
     text-align: center;
     color: #fff;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 50px;
 }
 .inner-footer-2{
     width: 100%;
@@ -235,7 +230,7 @@ body {
 }
 .inner-footer-2-ul ul li a{
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 14px;
     font-weight: 600;
     color: #fff;
 }
@@ -245,6 +240,7 @@ body {
     display: flex;
     gap: 25px;
     justify-content: center;
+    cursor: pointer;
 }
 .social-icon div{
     background-color: #2D2D2D;
@@ -257,5 +253,5 @@ body {
 }
 .social-icon div i{
     color: #fff;
-    font-size: 2vw;
+    font-size: 24px;
 }
