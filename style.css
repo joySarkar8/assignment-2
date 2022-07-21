@@ -279,11 +279,14 @@ body {
     padding: 40px 20px;
 }
 .vs{
+    width: 100%;
     display: flex;
     align-items: center;
+    gap: 8px;
+    justify-content: space-evenly;
 }
-.vs h4{
-    margin: 0 10px;
+.vs .img-width img{
+    width: 100%;
 }
 .card-text-2{
     text-align: center;
