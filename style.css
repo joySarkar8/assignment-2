@@ -129,6 +129,7 @@ body {
 .nav ul li a:hover{
     background-color: #DD0000;
     color: #fff;
+    transition: .4s;
 }
 .card-box{ 
     width: 75%;
@@ -145,6 +146,9 @@ body {
 }
 .card-child img{
     width: 100%;
+}
+.card-child .radius{
+    border-radius:9px 9px 0 0 ;
 }
 .card-child .card-text{
     padding: 10px 12px 22px 12px;
@@ -234,8 +238,6 @@ body {
     font-weight: 600;
     color: #fff;
 }
-
-
 .social-icon{
     display: flex;
     gap: 25px;
@@ -250,8 +252,51 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: .3s;
 }
+.social-icon div:hover{
+    transform: translateY(-10px);
+}
+.social-icon div:hover .red{
+    color: #FF0000;
+}
+.social-icon div:hover .blue{
+    color: rgb(29 161 242);
+}
+.social-icon div:hover .pink{
+    color: rgb(250, 64, 95);
+}
+
 .social-icon div i{
     color: #fff;
     font-size: 24px;
+}
+
+/*===================================================
+                   upcoming page start
+===================================================*/
+.card-child-2{
+    padding: 40px 20px;
+}
+.vs{
+    display: flex;
+    align-items: center;
+}
+.vs h4{
+    margin: 0 10px;
+}
+.card-text-2{
+    text-align: center;
+    margin-top: 18px;
+}
+.card-text-2 h4{
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-text-2 p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.card-text-2 > h4{
+    margin-bottom: 10px;
 }
