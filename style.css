@@ -123,7 +123,7 @@ body {
     text-decoration: none;
     color: #161616;
     font-weight: 600;
-    padding: 20px;
+    padding: 20px 4px;
     display: block;
 }
 .nav ul li a:hover{
@@ -205,7 +205,7 @@ body {
     justify-content: center;
 }
 .inner-footer-tittle{
-    width: 80%;
+    width: 85%;
     border-bottom: 2px solid #2D2D2D;
     margin-bottom: 40px;
     padding-bottom: 35px;
@@ -223,7 +223,7 @@ body {
     margin-bottom: 50px;
 }
 .inner-footer-2-ul{
-    width: 60%;
+    width: 74%;
 }
 .inner-footer-2-ul ul{
     display: flex;
